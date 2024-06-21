@@ -64,7 +64,7 @@ var date = new Date()
 
 console.log(date)
 
-console.log(date.getFullYear()) // Tự tìm hiểu các hàm tương tự
+console.log(date.getFullYear()) // Tự tìm hiểu các hàm tương tự về Date.
 
 // Math Objects
-console.log(Math.abs(-4)) // Tự tìm hiểu thêm các hàm về toán
+console.log(Math.abs(-4)) // Tự tìm hiểu thêm các hàm tương tự về Math.

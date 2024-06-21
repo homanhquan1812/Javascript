@@ -1,4 +1,4 @@
-// Đọc thêm về sự khác biệt giữa var, let và const
+// Đọc thêm về sự khác biệt giữa var, let và const.
 // Var
 var fullName = 'Ho Manh Quan'
 var age = 23

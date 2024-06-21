@@ -1,12 +1,12 @@
 // Có 3 cách viết function:
-// Expression Function
+// 1. Expression Function:
 var firstFunction = function() {
     console.log('This is the first function.')
 }
 
 firstFunction()
 
-// Declaration Function
+// 2. Declaration Function:
 function secondFunction() { // Phổ biến
     console.log('This is the second function.')
 }
@@ -21,7 +21,7 @@ var result = Math(1, 2)
 
 console.log('1 + 2 =', result)
 
-// Arrow Function
+// 3. Arrow Function:
 let thirdFunction = () => console.log('This is the third function.')
 
 thirdFunction()
