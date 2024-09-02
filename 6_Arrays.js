@@ -61,7 +61,7 @@ var filterPrice = courses.filter((course) => {
 
 console.table(filterPrice) // Table dùng để xem tốt hơn so với Log (Tùy nhu cầu sử dụng).
 
-// 4. Method(): Thường được dùng để tính toán trong Objects (Đọc thêm định nghĩa để hiểu rõ).
+// 4. Reduce(): Thường được dùng để tính toán trong Objects (Đọc thêm định nghĩa để hiểu rõ).
 var totalPriceOfAllCourses = courses.reduce((a, b) => a + b.price, 0)
 // a: Biến tích lũy bắt đầu từ số 0 được điền ở cuối dòng code.
 // b: Biến được chọn theo nhu cầu.
