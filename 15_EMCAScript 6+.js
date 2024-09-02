@@ -179,8 +179,14 @@ console.log(a) // Javascript
 console.log(b) // C++
 console.log(rest) // Từ C trở đi
 
+// 7. Spread
+var randomCarList = ['Toyota', 'BMW', 'VinFast']
+var randomBikeList = ['Honda', 'SYM', 'Dream']
+var allList = [...randomBikeList, ...randomCarList]
 
-// 7. Module --> Khái niệm quan trọng
+console.log(allList) // [ 'Honda', 'SYM', 'Dream', 'Toyota', 'BMW', 'VinFast' ]
+
+// 8. Module --> Khái niệm quan trọng
 // Check import ở trên và script ở HTML file, Module thường được dùng để sử dụng code ở file khác.
 
 // Vẫn còn nhiều thay đổi và nâng cấp khác ở ES6+, tự đọc thêm.
